@@ -202,8 +202,8 @@ export default {
 
 | Name | Returned data | Description |
 | --- | --- | --- |
-| `beforeChange` | `{currentSlide, nextSlide}` | Fires before slide change |
-| `afterChange` | `{currentSlide}` | Fires after slide change |
+| `before-change` | `{currentSlide, nextSlide}` | Fires before slide change |
+| `after-change` | `{currentSlide}` | Fires after slide change |
 
 
 ### Example

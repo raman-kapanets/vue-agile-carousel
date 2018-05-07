@@ -1,11 +1,11 @@
-const webpack = require('webpack')
-const CopyWebpackPlugin = require('copy-webpack-plugin')
-const base = require('./webpack.base.conf')
-const config = require('../config')
+const webpack = require('webpack');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const base = require('./webpack.base.conf');
+const config = require('../config');
 
 base.entry = {
   lib: './src/index.js'
-}
+};
 
 base.output = {
   path: config.bundle.assetsRoot,
@@ -13,9 +13,9 @@ base.output = {
   filename: 'vue-agile.min.js',
   library: 'vue-agile',
   libraryTarget: 'umd'
-}
+};
 
-var webpackConfig = Object.assign({}, base)
+const webpackConfig = Object.assign({}, base);
 
 webpackConfig.plugins = (webpackConfig.plugins || []).concat([
   new webpack.DefinePlugin({
@@ -32,6 +32,6 @@ webpackConfig.plugins = (webpackConfig.plugins || []).concat([
   ], {
     ignore: ['.DS_Store', 'index.js']
   })
-])
+]);
 
-module.exports = webpackConfig
+module.exports = webpackConfig;

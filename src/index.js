@@ -1,11 +1,11 @@
 import Agile from './Agile'
 
 const install = (Vue) => {
-    Vue.component('agile', Agile)
-}
+  Vue.component('agile', Agile)
+};
 
 export default {
-    install
+  install
 }
 
 export {Agile}

@@ -1,5 +1,13 @@
 # vue-agile
 
+This is a fork of [vue-agile](https://github.com/lukaszflorczak/vue-agile).
+I changed beforeChange and afterChange event names in dev branch to kebab-case and merged to master.
+
+I needed it for a project and the author wasn't responding.
+
+---
+_Old READEME:_
+
 > Carousel component for Vue.js inspired by [Slick](https://github.com/kenwheeler/slick/).<br>
 > More powerful with each version, touch-friendly, written in Vue and Vanilla JS (without jQuery dependency).
 

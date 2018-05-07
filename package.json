@@ -1,8 +1,8 @@
 {
-  "name": "vue-agile",
-  "version": "0.3.7",
+  "name": "vue-agile-carousel",
+  "version": "0.4.0",
   "description": "Carousel component for Vue.js",
-  "author": "Łukasz Florczak <lukasz.florczak@cepixel.com>",
+  "author": "Siniša Tomašković <stomaskov@gmail.com>",
   "license": "MIT",
   "keywords": [
     "vue",
@@ -14,10 +14,10 @@
   "main": "dist/vue-agile.min.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukaszflorczak/vue-agile.git"
+    "url": "git+https://github.com/stomaskov/vue-agile-carousel"
   },
   "bugs": {
-    "url": "https://github.com/lukaszflorczak/vue-agile/issues"
+    "url": "https://github.com/stomaskov/vue-agile-carousel/issues"
   },
   "scripts": {
     "dev": "node build/dev-server.js",
